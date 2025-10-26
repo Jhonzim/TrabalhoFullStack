@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gerenciador de Tarefas - Frontend Simples</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Gerenciador de Tarefas</h1>
+    <section class="form">
+      <input id="task-name" placeholder="Nome da tarefa" />
+      <input id="task-desc" placeholder="Descrição" />
+      <label><input type="checkbox" id="task-status"> Concluída</label>
+      <button id="save-btn">Adicionar</button>
+      <button id="cancel-edit" class="hidden">Cancelar edição</button>
+    </section>
+
+    <section class="list">
+      <h2>Tarefas</h2>
+      <ul id="tasks"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
