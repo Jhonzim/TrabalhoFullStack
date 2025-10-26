@@ -1,0 +1,2 @@
+-Backend: API desenvolvida em SpringBoot utilizando banco de dados em memória h2
+- FrontEnd simples utilizando html, css e javascript.
