@@ -20,7 +20,7 @@ async function listTasks(){
     renderTasks(tasks);
   }catch(err){
     console.error(err);
-    tasksEl.innerHTML = '<li class="small">Erro ao carregar tarefas. Verifique a API no console.</li>';
+    tasksEl.innerHTML = '<li class="small">Erro ao carregar taref. Verifique a API no console.</li>';
   }
 }
 
